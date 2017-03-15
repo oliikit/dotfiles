@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/olii/projects/fitrep/test'
+let g:netrw_dirhist_2='/Users/olii/projects/fitrep/db/migrate'
+let g:netrw_dirhist_3='/Users/olii/blog'
+let g:netrw_dirhist_4='/Users/olii/blog/db/migrate'
+let g:netrw_dirhist_5='/Users/olii/blog/config'
+let g:netrw_dirhist_6='/Users/olii/blog/app/views/posts'
+let g:netrw_dirhist_7='/Users/olii/blog/app/models'
+let g:netrw_dirhist_8='/Users/olii/blog/app/views/posts'

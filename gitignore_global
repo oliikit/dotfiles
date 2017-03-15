@@ -1,0 +1,9 @@
+# Mac system files
+*.swp
+.DS_Store
+.DS_Store?
+._*
+
+# Node files
+node_modules/
+*.log
