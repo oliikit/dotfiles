@@ -13,6 +13,8 @@
     ~/.bash_profile:
     ~/.zsh-update:
     ~/.zshrc:
+    ~/.atom:
+      relink: true
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
