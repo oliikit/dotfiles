@@ -9,8 +9,11 @@
     ~/.vim: vim
     ~/.vimrc: vimrc
     ~/.gitignore_global: gitignore_global
-    ~/.bashrc: ''
-    ~/.bash_profile: ''
+    ~/.bashrc:
+    ~/.bash_profile:
+    ~/.oh-my-zsh:
+    ~/.zsh-update:
+    ~/.zshrc:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
