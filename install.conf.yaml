@@ -11,7 +11,7 @@
     ~/.gitignore_global: gitignore_global
     ~/.bashrc:
     ~/.bash_profile:
-    ~/.oh-my-zsh:
+    ~/.oh-my-zsh: ohmyzsh
     ~/.zsh-update:
     ~/.zshrc:
 
