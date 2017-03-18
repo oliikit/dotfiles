@@ -1,7 +1,8 @@
 blob-store
 compile-cache
 dev
+packages
 storage
 .apm
-.node-gyp
+.node-gyp/*
 .npm

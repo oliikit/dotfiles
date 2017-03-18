@@ -16,6 +16,8 @@
     userId: "f8f898f0-99cc-97e5-9277-b4bb2e2f4fb5"
   "markdown-preview":
     useGitHubStyle: true
+  "markdown-preview-enhanced":
+    scrollSync: false
   "package-sync":
     createOnChange: true
     forceOverwrite: true
