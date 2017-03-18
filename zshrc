@@ -86,5 +86,5 @@ alias zsource="source ~/.zshrc"
 
 echo -ne "\e]1;$PWD\a"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+source "$(npm root -g)/mbxcli/mapbox.sh"
+
