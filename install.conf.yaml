@@ -6,13 +6,14 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.vim: vim
-    ~/.vimrc: vimrc
-    ~/.gitignore_global: gitignore_global
+    ~/.vim:
+    ~/.vimrc:
+    ~/.gitignore_global: 
     ~/.bashrc:
     ~/.bash_profile:
     ~/.zsh-update:
     ~/.zshrc:
+    ~/.config/nvim: nvim
     ~/.atom:
       relink: true
 
