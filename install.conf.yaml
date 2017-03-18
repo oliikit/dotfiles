@@ -13,9 +13,6 @@
     ~/.bash_profile:
     ~/.zsh-update:
     ~/.zshrc:
-    ~/.config/nvim: nvim
+    ~/.config/nvim: vim
     ~/.atom:
       relink: true
-
-- shell:
-  - [git submodule update --init --recursive, Installing submodules]
