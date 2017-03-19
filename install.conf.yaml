@@ -14,5 +14,8 @@
     ~/.zsh-update:
     ~/.zshrc:
     ~/.config/nvim: vim
+    ~/.config/nvim/init.vim: 
+      relink: true
+      path: init.vim
     ~/.atom:
       relink: true
