@@ -1,5 +1,11 @@
 # dotfiles
 
+## TO UPDATE:
+- install instructions
+- add iterm link
+- auto atom link?
+
+
 ## To Use:
 - Install Neovim, Oh-My-Zsh, Atom
 - Link iTerm preferences to iterm2
