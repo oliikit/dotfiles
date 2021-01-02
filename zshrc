@@ -85,6 +85,3 @@ alias vsource="source ~/.vim/init.vim"
 alias zsource="source ~/.zshrc"
 
 echo -ne "\e]1;$PWD\a"
-
-source "$(npm root -g)/mbxcli/mapbox.sh"
-
