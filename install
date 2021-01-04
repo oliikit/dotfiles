@@ -8,7 +8,22 @@ DOTBOT_DIR="dotbot"
 DOTBOT_BIN="bin/dotbot"
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+LINK_TARGET_EXISTS_HANDLING=""
+while true; do
+    read -p "$(echo -e 'If files exist or are already symlinked, do you want to replace?\nAnswer [y]es, [n]o, or [p]rompt: ')" yn
+    case $yn in
+        [Yy]* ) LINK_TARGET_EXISTS_HANDLING="f"; break;;
+        [Nn]* ) LINK_TARGET_EXISTS_HANDLING=""; break;;
+        [Pp]* ) LINK_TARGET_EXISTS_HANDLING="i"; break;;
+        * ) echo "Please answer: ";;
+    esac
+done
+
 cd "${BASEDIR}"
 git submodule update --init --recursive "${DOTBOT_DIR}"
 
 "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
+
+ln -sv${LINK_TARGET_EXISTS_HANDLING} "${HOME}/.vscode.settings.json" "${HOME}/Library/Application Support/Code/User/settings.json"
+# ln -sv${LINK_TARGET_EXISTS_HANDLING} "${HOME}/.vscode.keybindings.json" "${HOME}/Library/Application Support/Code/User/keybindings.json"
+# ln -sv${LINK_TARGET_EXISTS_HANDLING} "${HOME}/.vscode.code-snippets" "${HOME}/Library/Application Support/Code/User/snippets/code-snippets.code-snippets"

@@ -1,0 +1,58 @@
+{
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Halcyon",
+    "gitlens.views.repositories.location": "gitlens",
+    "gitlens.views.fileHistory.location": "gitlens",
+    "gitlens.views.lineHistory.location": "gitlens",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "editor.tabSize": 2,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "editor.detectIndentation": false,
+    "editor.fontSize": 14,
+    "window.zoomLevel": 0,
+    "workbench.fontAliasing": "antialiased",
+    "cSpell.userWords": [
+      "Guarduty",
+      "Nvmrc",
+      "Offboarding",
+      "Repos",
+      "Vuln",
+      "Vulns",
+      "Webhooks",
+      "arcadiapower",
+      "collab",
+      "collabs",
+      "docsz",
+      "frontmatter",
+      "mrkdwn",
+      "octokit",
+      "stax",
+      "striptags",
+      "webhook",
+      "webhook's",
+      "zipfile"
+    ],
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.enableFiletypes": [
+      "!json"
+    ],
+    "[json]": {},
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "editor.renderWhitespace": "none",
+    "cSpell.enabled": false,
+    "svg.preview.mode": "img"
+}
