@@ -90,3 +90,4 @@ source $(which assume-role)
 source $HOME/.rvm/scripts/rvm
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 alias python='/usr/local/bin/python3'
+
