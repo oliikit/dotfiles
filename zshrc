@@ -32,7 +32,7 @@ ZSH_THEME="nanotech"
 # Uncomment the following line to disable auto-setting terminal title.
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -85,3 +85,9 @@ alias vsource="source ~/.vim/init.vim"
 alias zsource="source ~/.zshrc"
 
 echo -ne "\e]1;$PWD\a"
+
+source $(which assume-role)
+source $HOME/.rvm/scripts/rvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+alias python='/usr/local/bin/python3'
+
