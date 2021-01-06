@@ -1,1 +1,1 @@
-/Users/olivia.brundage/Personal/dotfiles/init.vim
+/Users/oliikit/projects/dotfiles/init.vim

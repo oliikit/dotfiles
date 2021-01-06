@@ -15,4 +15,4 @@
 The `vscode.sh` script currently is a placeholder and will need to be fleshed out.
 
 ## To restore
-cat extensions.txt | xargs -L 1 code --install-extension
+cat .vscode.extensions.txt | xargs -L 1 code --install-extension
