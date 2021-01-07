@@ -91,3 +91,8 @@ source $HOME/.rvm/scripts/rvm
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 alias python='/usr/local/bin/python3'
 
+export AWS_SESSION_TOKEN_TTL=12h
+export AWS_CHAINED_SESSION_TOKEN_TTL=12h
+export AWS_ASSUME_ROLE_TTL=12h
+export AWS_FEDERATION_TOKEN_TTL=12h
+export PATH=$PATH:$HOME/scripts
